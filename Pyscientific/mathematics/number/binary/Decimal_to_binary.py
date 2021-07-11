@@ -1,4 +1,7 @@
 class Decimal_to_binary:
+    """
+    This class was created to convert decimal to binary.
+    """
     @classmethod
     def count_dectobin(cls, num, digit=8):
         """
@@ -19,6 +22,11 @@ class Decimal_to_binary:
 
     @classmethod
     def return_total_list_element(cls, ls: list):
+        """
+        This function prints all the elements in a list.
+        :param ls:
+        :return st :
+        """
         st = ""
         for i in list(map(str, ls)):
             st += str(i)
@@ -26,6 +34,11 @@ class Decimal_to_binary:
 
     @classmethod
     def remove_first_0_element(cls, ls: list):
+        """
+        This function removes 0's from the list until 1 is found.
+        :param ls:
+        :return:
+        """
         outlist = list(map(int, ls))
         returnls = outlist
         index = 0
@@ -39,9 +52,22 @@ class Decimal_to_binary:
 
     @staticmethod
     def dectobin(num):
+        """
+        This method converts a decimal number to a binary number.
+        :param num:
+        :return:
+        """
         Decimal_to_binary.decimalls = []
-        Decimal_to_binary.count_dectobin(int(num))
-        return Decimal_to_binary.return_total_list_element(Decimal_to_binary.remove_first_0_element(Decimal_to_binary.decimalls))
+        Decimal_to_binary.count_dectobin(int(num)) # convert decimal to binary
+        # this method has ploblem.. later, I'll fix it
+
+        # return Decimal_to_binary.return_total_list_element( # Print all elements in a list
+        #     Decimal_to_binary.remove_first_0_element( # Remove 0 before 1 in list
+        #         Decimal_to_binary.decimalls # List of decimal to binary numbers
+        #     )
+        # ) # stopship 2021/07/11
+
+        return NotImplemented
 
 if __name__ == '__main__':
     dtb = Decimal_to_binary()
