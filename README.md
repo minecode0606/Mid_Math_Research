@@ -1,9 +1,9 @@
 # School research
 이 저장소는 저의 학교에서 진행했던 실적물을 담아둔 저장소입니다.
 
-* 2022 [MIFC project](https://github.com/minecode0606/minecode_Research/tree/master/MIFC_PROJECT)
+* 2022 [MIFC project](https://github.com/minecode0606/Mid_Math_Research/tree/master/MIFC_PROJECT)
 
-* 2022 [Hyeonam_Computer_club](https://github.com/minecode0606/minecode_Research/tree/master/Middle_School_Research/Hyeonam_Middle_School_Information_Science_Club)
+* 2022 [Hyeonam_Computer_club](https://github.com/minecode0606/Mid_Math_Research/tree/master/Middle_School_Research/Hyeonam_Middle_School_Information_Science_Club)
 
 
 
